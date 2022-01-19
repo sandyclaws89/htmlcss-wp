@@ -8,7 +8,7 @@
 .imglogo{
     height: 60px;
     margin-top: 10px;
-    margin
+    
 }
 
 header{
@@ -34,25 +34,31 @@ li{
     padding-left: 2%;
     padding-right: 45%;
     padding-bottom: 0;
-    font-size: 1.3em;
+    font-size: 1.4em;
     color: white;
 }
 
 .banner {
-    margin: 15px 15% 15px 15%;
+    margin: 15px 0;
+    /* width: auto; */
     height: 500px;
     background-image: url(../img/banner.jpg);   
-    background-position: center;
+    background-position: 50%;
+    /* object-fit: cover; */
     border-radius: 1em;
+    /* background-repeat: no-repeat; */
     
+    }
+
+    main{
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
 .articlebanner {
     margin-top: 15px;
-    margin-left: 15%;
-    margin-right: 15%;
     margin-bottom: 1em;
-    background-color: #0386fc;
+    
    
 }
 
@@ -60,6 +66,7 @@ li{
     content: '';
     display: table;
     clear: both;
+    
 }
 
 .upblock{
@@ -68,39 +75,63 @@ li{
     margin-bottom: 1em;
     padding-top: 1em;
     padding-left: 1em;
+    font-size: 1.3em;
 }
 
+.textform2{
+    font-size: .9em;
+}
 
-
-.leftblock{
-    background-color: #abcfe7;
+.leftart{
     width: 20%;
     float: left;
     margin-bottom: 1em;
+    font-size: 1em;
+   
 }
 
 
 
-.centralblock{
-    background-color: #abcfe7;
+.centralart{
     width:calc(60% - 2em);
     margin-left: 1em;
     margin-right: 1em;
     float: left;
 }
 
-.rightblock{
-    background-color: #abcfe7;
+.centralimg {
+    width:calc(60% -2em);
+    width: 100%;
+    height: 320px;
+    background-color: grey;
+}
+
+.leftimg{
+    width: 100%;
+    height: 320px;
+    background-color: grey;
+}
+
+.rightimg{
+    width: 100%;
+    height: 320px;
+    
+}
+
+.rightart{
     width: 20%;
-    heght: 700px;
     float: right;
     }
 
 .purpleblock{
-    margin: top .2em;
     margin-left: 15%;
     margin-right: 15%;
     background-color: #8800ff;
-    height: 100px;
-    margin-top: 0.5em;
+    text-align: center;
+}
+
+.finaltext{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 40px;
 }
