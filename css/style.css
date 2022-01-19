@@ -11,7 +11,7 @@
     margin
 }
 
-.pinkblock{
+header{
     margin: 15px 15% 15px 15%  ;
     height: 150px;
 }
@@ -28,36 +28,46 @@ li{
    
 
 }
-li:hover{
 
+.textform{
+    padding-top: 23%;
+    padding-left: 2%;
+    padding-right: 45%;
+    padding-bottom: 0;
+    font-size: 1.3em;
+    color: white;
 }
 
-.yellowblock {
-    margin: 15px 15% 15px 15%  ;
-    background-color: #e1d67a;
-    height: 200px;
-}
+.banner {
+    margin: 15px 15% 15px 15%;
+    height: 500px;
+    background-image: url(../img/banner.jpg);   
+    background-position: center;
+    border-radius: 1em;
+    
+    }
 
-.lblueblock {
+.articlebanner {
     margin-top: 15px;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 1em;
     background-color: #0386fc;
-    hight: 800px;
+   
 }
 
-.lblueblock::after{
+.articlebanner::after{
     content: '';
     display: table;
     clear: both;
 }
 
 .upblock{
-    background-color: #abcfe7;
     width: 100%;
     height: 70px;
     margin-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 
