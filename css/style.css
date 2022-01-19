@@ -1,35 +1,43 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-size: 1em;
 }
 
+/* Colore grigio testo */
+.textcolor{
+    color:#919191;
+}
+
+/* Immagine del logo */
 .imglogo{
     height: 60px;
     margin-top: 10px;
-    
 }
 
+/* Barra di navigazione  */
 header{
     margin: 15px 15% 15px 15%  ;
-    height: 150px;
 }
 
+/* Link categorie nav  */
 a{
     text-decoration: none;
     color:#919191;
 }
 
+/* Categorie nav  */
 li{
     display: inline-block;
     margin-top: 2em;
     padding-right: 1em;
     color: #919191;
-   
-
 }
 
+ /* Testo banner centrale  */
 .textform{
     padding-top: 23%;
     padding-left: 2%;
@@ -39,6 +47,7 @@ li{
     color: white;
 }
 
+/* Blocco banner centrale  */
 .banner {
     margin: 15px 0;
     /* width: auto; */
@@ -48,21 +57,22 @@ li{
     /* object-fit: cover; */
     border-radius: 1em;
     /* background-repeat: no-repeat; */
-    
-    }
-
-    main{
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
-.articlebanner {
-    margin-top: 15px;
-    margin-bottom: 1em;
-    
-   
+    overflow: hidden;
 }
 
+/* Margini parte centrale pagina */
+main{
+        margin-left: 15%;
+        margin-right: 15%;
+}
+
+   /* Blocco con i 3 articoli  */
+.articlebanner {
+    margin-top: 15px;
+    margin-bottom: 1em;   
+}
+
+/* Clearfix float articoli */
 .articlebanner::after{
     content: '';
     display: table;
@@ -70,6 +80,7 @@ li{
     
 }
 
+/* Blocco "Leadership" */
 .upblock{
     width: 100%;
     height: 70px;
@@ -79,20 +90,29 @@ li{
     font-size: 1.3em;
 }
 
+/* Testo "Leadership" */
 .textform2{
     font-size: .9em;
 }
 
+
+/* Articolo di sinistra */
 .leftart{
+    
     width: 20%;
     float: left;
     margin-bottom: 1em;
     font-size: 1em;
-   
 }
 
+/* Immagine articolo di sinistra */
+.leftimg{
+    width: 100%;
+    height: 320px;
+    background-color: grey;
+}
 
-
+/* Articolo centrale */
 .centralart{
     width:calc(60% - 2em);
     margin-left: 1em;
@@ -100,6 +120,7 @@ li{
     float: left;
 }
 
+/* Immagine articolo centrale */
 .centralimg {
     width:calc(60% -2em);
     width: 100%;
@@ -107,31 +128,21 @@ li{
     background-color: grey;
 }
 
-.leftimg{
-    width: 100%;
-    height: 320px;
-    background-color: grey;
-}
-
-.rightimg{
-    width: 100%;
-    height: 320px;
-    
-}
-
+/* Articolo di destra */
 .rightart{
     width: 20%;
     float: right;
-    }
-
-.purpleblock{
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: #8800ff;
-    text-align: center;
 }
 
-.finaltext{
+/* Immagine articolo di destra */
+.rightimg{
+    width: 100%;
+    height: 320px;
+    background-color: black;
+}
+
+/* Testo parte finale */
+footer{
     font-size: 1.5em;
     text-align: center;
     margin-top: 40px;
