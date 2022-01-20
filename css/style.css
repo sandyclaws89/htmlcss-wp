@@ -45,18 +45,19 @@ li{
     padding-bottom: 0;
     font-size: 1.4em;
     color: white;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 /* Blocco banner centrale  */
 .banner {
     margin: 15px 0;
-    /* width: auto; */
     height: 500px;
     background-image: url(../img/banner.jpg);   
     background-position: 50%;
-    /* object-fit: cover; */
+    background-size: cover;
     border-radius: 1em;
-    /* background-repeat: no-repeat; */
     overflow: hidden;
 }
 
